@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "House.h"
+#import "Condo.h"
+#import "RowHome.h"
 
 int main(int argc, const char * argv[])
 {
@@ -16,11 +18,15 @@ int main(int argc, const char * argv[])
         House* redHouse;
         House* blueHouse;
         House* greenHouse;
+        Condo* belmont;
+        RowHome* hillsboro;
         
         redHouse = [[House alloc] init];
         blueHouse = [[House alloc] init];
         greenHouse = [[House alloc] init];
- 
+        belmont = [[Condo alloc] init];
+        hillsboro = [[RowHome alloc] init];
+
         [redHouse setColor:@"Red"];
         [blueHouse setColor:@"Blue"];
         [greenHouse setColor:@"GReen"];
@@ -31,6 +37,9 @@ int main(int argc, const char * argv[])
         [blueHouse enterFrontDoor];
         NSLog(@"greenHouse is %@", [greenHouse getColor]);
         [greenHouse enterFrontDoor];
+        
+        [belmont useElevator:678321];
+        [hillsboro climbStairs:632];
         
     }
     return 0;

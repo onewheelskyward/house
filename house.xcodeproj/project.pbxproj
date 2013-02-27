@@ -11,6 +11,8 @@
 		D3F2A39C16DA07A900E7B8DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F2A39B16DA07A900E7B8DF /* main.m */; };
 		D3F2A3A016DA07A900E7B8DF /* house.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3F2A39F16DA07A900E7B8DF /* house.1 */; };
 		D3F2A3A816DA097A00E7B8DF /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F2A3A716DA097A00E7B8DF /* House.m */; };
+		D3F2A3AB16DDE24A00E7B8DF /* Condo.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F2A3AA16DDE24A00E7B8DF /* Condo.m */; };
+		D3F2A3AE16DDE2F100E7B8DF /* RowHome.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F2A3AD16DDE2F100E7B8DF /* RowHome.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		D3F2A39F16DA07A900E7B8DF /* house.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = house.1; sourceTree = "<group>"; };
 		D3F2A3A616DA097A00E7B8DF /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
 		D3F2A3A716DA097A00E7B8DF /* House.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
+		D3F2A3A916DDE24A00E7B8DF /* Condo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Condo.h; sourceTree = "<group>"; };
+		D3F2A3AA16DDE24A00E7B8DF /* Condo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Condo.m; sourceTree = "<group>"; };
+		D3F2A3AC16DDE2F100E7B8DF /* RowHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowHome.h; sourceTree = "<group>"; };
+		D3F2A3AD16DDE2F100E7B8DF /* RowHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowHome.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,10 @@
 			isa = PBXGroup;
 			children = (
 				D3F2A39B16DA07A900E7B8DF /* main.m */,
+				D3F2A3A916DDE24A00E7B8DF /* Condo.h */,
+				D3F2A3AC16DDE2F100E7B8DF /* RowHome.h */,
+				D3F2A3AD16DDE2F100E7B8DF /* RowHome.m */,
+				D3F2A3AA16DDE24A00E7B8DF /* Condo.m */,
 				D3F2A3A616DA097A00E7B8DF /* House.h */,
 				D3F2A3A716DA097A00E7B8DF /* House.m */,
 				D3F2A39F16DA07A900E7B8DF /* house.1 */,
@@ -146,6 +156,8 @@
 			files = (
 				D3F2A39C16DA07A900E7B8DF /* main.m in Sources */,
 				D3F2A3A816DA097A00E7B8DF /* House.m in Sources */,
+				D3F2A3AB16DDE24A00E7B8DF /* Condo.m in Sources */,
+				D3F2A3AE16DDE2F100E7B8DF /* RowHome.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
