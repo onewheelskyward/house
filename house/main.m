@@ -7,14 +7,30 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "House.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+        House* redHouse;
+        House* blueHouse;
+        House* greenHouse;
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        redHouse = [[House alloc] init];
+        blueHouse = [[House alloc] init];
+        greenHouse = [[House alloc] init];
+ 
+        [redHouse setColor:@"Red"];
+        [blueHouse setColor:@"Blue"];
+        [greenHouse setColor:@"GReen"];
+        
+        NSLog(@"redHouse is %@", [redHouse getColor]);
+        [redHouse enterFrontDoor];
+        NSLog(@"blueHouse is %@", [blueHouse getColor]);
+        [blueHouse enterFrontDoor];
+        NSLog(@"greenHouse is %@", [greenHouse getColor]);
+        [greenHouse enterFrontDoor];
         
     }
     return 0;
