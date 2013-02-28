@@ -20,6 +20,7 @@ int main(int argc, const char * argv[])
         House* greenHouse;
         Condo* belmont;
         RowHome* hillsboro;
+        House* houses[5];
         
         redHouse = [[House alloc] init];
         blueHouse = [[House alloc] init];
@@ -41,6 +42,17 @@ int main(int argc, const char * argv[])
         [belmont useElevator:678321];
         [hillsboro climbStairs:632];
         
+        houses[0] = redHouse;
+        houses[1] = blueHouse;
+        houses[2] = greenHouse;
+        houses[3] = belmont;
+        houses[4] = hillsboro;
+        
+        for (int i = 0;  i <= 4; i++)
+        {
+            NSLog(@"House is %@", [houses[i] getColor]);
+            [houses[i] enterFrontDoor];
+        }
     }
     return 0;
 }
